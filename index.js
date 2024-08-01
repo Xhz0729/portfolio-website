@@ -17,3 +17,16 @@ document.getElementById('info-form').addEventListener('submit', function(event) 
     document.getElementById('info-form').reset();
     console.log('Form is valid');
   });
+
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}

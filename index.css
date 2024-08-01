@@ -71,7 +71,6 @@ body {
 #main {
   max-width: 800px;
   margin: 0 auto;
-  padding: 20px;
   border-radius: 8px;
 }
 
@@ -95,17 +94,16 @@ header img {
   border-radius: 45%;
 }
 
-header p {
+p {
   font-size: 1.2rem;
   text-align: left;
   margin-bottom: 15px;
+  max-width: 800px;
 }
 
-
+/* Style form */
 form {
-    padding: 20px;
     width: 100%;
-    box-sizing: border-box;
 }
 
 fieldset{
@@ -115,6 +113,11 @@ fieldset{
 label {
     display: block;
     margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+
+h2 {
+  color:#ADD8E6;
 }
 
 input{
@@ -138,6 +141,11 @@ button:hover {
 
 .group-form {
     margin-bottom: 15px;
+}
+#myBtn {
+  padding: 0;
+  background-color:rgba(0, 0, 0, 0.1); 
+  color: whitesmoke;
 }
 
 
