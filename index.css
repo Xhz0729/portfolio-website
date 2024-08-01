@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(to right, #D9AFD9 0%, #97D9E1 100%);
-    background-attachment: fixed; 
 }
 
 .topnav {
@@ -15,7 +14,7 @@ body {
     float: left;
     color: whitesmoke;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 25px;
     text-decoration: none;
     font-size: 0.8rem;
   }
@@ -28,6 +27,26 @@ body {
   .topnav a.active {
     background-color: #04AA6D;
     color: white;
+  }
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+  
+/* Add some content at the bottom of the video/page */
+.content {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    z-index: 1;
   }
 
 img{
