@@ -5,3 +5,45 @@ body {
     background: linear-gradient(to right, #D9AFD9 0%, #97D9E1 100%);
     background-attachment: fixed; 
 }
+
+form {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+fieldset{
+    border: black;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color:whitesmoke;
+    font-weight: bolder;
+    padding: 10px 15px;
+    cursor: pointer;   
+}
+
+button:hover {
+    background-color:lightgray;
+}
+
+.group-form {
+    margin-bottom: 15px;
+}
+
+
+
+
