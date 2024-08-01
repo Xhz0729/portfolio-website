@@ -6,6 +6,13 @@ body {
     background-attachment: fixed; 
 }
 
+img{
+    width: 322px;
+    height: "430px";
+    border: 1px solid gray ;
+    border-radius: 6px;
+}
+
 form {
     padding: 20px;
     width: 100%;
