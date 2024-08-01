@@ -7,18 +7,28 @@
     <link rel="stylesheet" href="/index.css">
 </head>
 <body>
-    <header>
-        <h1>Xiahui Zhang</h1>
-        <img src="/xiahui.JPG" alt="Xiahui, smiling at the camera">
-        <p>Former lawyer with a strong passion for technology and now a software engineer under training at Techtonica.</p>
-    </header>
+    <section id="topnav">
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#item-education">Education</a>
+            <a href="#item-project">Projects</a>
+            <a href="#contact-form">Contact</a>
+          </div>
+    </section>
+    <section id="main">
+        <header>
+            <h1>Xiahui Zhang</h1>
+            <img src="/xiahui.JPG" alt="Xiahui, smiling at the camera">
+            <p>Former lawyer with a strong passion for technology and now a software engineer under training at Techtonica.</p>
+        </header>
+    </section>
     <section id="coding-experience">
-        <div class="item education">
+        <div id="item-education">
             <h2>Education</h2>
             <h3>Techtonica Bootcamp</h3>
             <p>Completed various coding assignments and projects, focusing on JavaScript, CSS, and HTML.</p>
         </div>
-        <div class="item project">
+        <div id="item-project">
             <h2>Projects</h2>
             <h3>Recipe Page</h3>
             <p>Developed a cold brew recipe webpage using HTML, CSS, and DOM manipulation.</p>
@@ -31,15 +41,17 @@
             <h2>Contact Info</h2>
             <fieldset>
                 <div class="group-form">
-                    <label for="first name">First Name:</label>
+                    <label for="first name">*First Name:</label>
                     <input type="text" id="first name" name="first name" required>
                 </div>
                 <div class="group-form">
-                    <label for="last name">Last Name:</label>
+                    <label for="last name">*Last Name:</label>
                     <input type="text" id="last name" name="last name" required>
                 </div>
                 <div class="group-form">
-                    <label for="email">Email:</label>
+                    <label for="email">*
+                        
+                        Email:</label>
                     <input type="email" id="email" name="email" required>
                 </div>
                 <div class="group-form">
