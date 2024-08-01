@@ -67,7 +67,7 @@ body {
     z-index: 1;
   }
 
-/* Style my main part */
+/* Style my header part */
 #main {
   max-width: 800px;
   margin: 0 auto;
@@ -80,8 +80,9 @@ header {
 }
 
 header h1 {
+  font-family: "Dancing Script", cursive;
   margin-bottom: 20px;
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: bold;
   color: #ADD8E6;
 }
