@@ -9,7 +9,7 @@ document.getElementById('info-form').addEventListener('submit', function(event) 
       return false;
     }
 
-    if (!phoneNum.match(/^[\+]?[0-9]{0,3}\W?+[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im)) {
+    if (!phoneNum.match(/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im)) {
         alert('Invalid phone number');
         return false;
 
