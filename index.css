@@ -2,8 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    
-    line-height: 1.6;
+    line-height: 1.8;
     color:#FFFFFF;
     z-index: 0.5;
 }
@@ -20,7 +19,7 @@ body {
     text-align: center;
     padding: 20px 25px;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   
   .topnav a:hover {
@@ -91,14 +90,14 @@ header h1 {
 
 header img {
   margin: 0 auto 20px auto;
-  width: 600px;
+  width: 400px;
   height: auto;
   border: 1px solid #333 ;
   border-radius: 45%;
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-align: left;
   margin-bottom: 15px;
   max-width: 1000px;
@@ -147,6 +146,10 @@ input{
     box-sizing: border-box;
 }
 
+select {
+  padding: 10px;
+}
+
 /* Style submit btn */
 button {
     background-color:whitesmoke;
@@ -173,6 +176,9 @@ button:hover {
   font-size: 3rem;
   color: white;
 }
+
+/* Responsice design */
+
 
 
 
